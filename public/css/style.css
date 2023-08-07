@@ -1,0 +1,88 @@
+*{margin: 0%;
+    font-family: 'Indie Flower', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #EAC926;
+}
+body{
+    background-color: #ebebeb;;
+}
+h1{
+    width: 150px;
+    height:30px ;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+nav{
+    margin-top:10px;
+}
+.navegacion{
+    margin-bottom: 20px;
+}
+.img-art{
+    width: 200px;
+    height: 200px;
+}
+.titular{
+    font-size: 24px;
+}
+.descripcion-descuento{
+    font-size: 16px;
+}
+.precios{
+    font-size: 18px;
+}
+
+nav{
+    font-size: 12px;
+}
+#barra{
+    margin-left: 10x;
+}
+.compras{
+    text-align: center;
+}
+.anuncio{
+    display: inline; 
+    padding-left: 0%;
+}
+ul{
+    list-style: none;  
+    padding-left: 0%;
+    margin-left: 0%;
+}
+.ft-list{
+    text-align: center;
+    font-size: 12px;
+
+}
+h3{
+    color: #666;
+}
+.ft-p{
+    color:#666
+}
+.menu{
+    text-align: center;
+}
+.burguer-menu-2{
+    font-size: 25px;
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.icon{
+    text-align: center;
+    color: #1259c3;
+    font-size: 2em;
+    margin: 10px;
+}
+.bg-color{
+    background-color: white;
+}
+
+
