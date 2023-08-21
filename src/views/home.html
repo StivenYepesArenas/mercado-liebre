@@ -15,11 +15,13 @@
         
         <div class="nav-hedaer">
             <div class="logo ">
-            <img src="images/logo.svg" alt="Logo Mercadoliebre">
+                <img src="images/logo.svg" alt="Logo Mercadoliebre">
             </div>
-            <div class="barra-busqueda">
-                <input type="search" class="busqueda"><i class="fa-solid fa-magnifying-glass lupa" type="text"></i>
-            </div>
+            <form class="barra-busqueda" action="/">
+                    <input type="text" name="search" class="busqueda" placeholder="Buscá productos por nombre, marcas o palabras clave">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass lupa"></i></button>
+            </form>
+            
             <h5 class="compras"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h5>
             </div>
             
@@ -30,12 +32,10 @@
                 <li><a href="#">Vender</a></li>
                 <li><a href="#">Ayuda</a></li>
             </ul>
-            <ul class="navegacion-2">
-                <li>
-                    <a href="/register">Creá tu cuenta</a><i class="fa-regular fa-id-card"></i></a>
-                </li>
-                <li> <a href="/login">Ingresá </a><i class="fa-solid fa-arrow-right-to-bracket"></i></li>
-                <li><a href="#">Mis Compras</a><i class="fa-solid fa-basket-shopping"></i></li>
+            <ul class="texto-normal navegacion-2">
+                <li><a href="/register" class="texto-normal"><i class="fa-solid fa-regular fa-id-card"></i>Crea tu cuenta</a></li>
+                <li><a href="/login" class="texto-normal"><i class="fa-solid fa-right-to-bracket"></i>Ingresa</a></li>
+                <li><a href="#" class="texto-normal"><i class="fa-solid fa-bag-shopping"></i>Mis compras</a></li>
             </ul>
         </nav>
         
@@ -135,8 +135,8 @@
             <li><i class="fa-solid fa-user-shield icon"></i><h3>Seguridad, de principio a fin</h3>
                 <p class="ft-p">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                     porque estás siempre protegid@.</p></li>
-            <li><h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3></li>
         </ul>
+          <h3 class="copi">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
     </footer>
 </body>
 </html>

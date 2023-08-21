@@ -19,12 +19,16 @@
     <header class="bg-yellow">
         <div class="nav-hedaer">
         <div class="logo ">
-        <img src="/images/logo.svg" alt="Logo Mercadoliebre">
+            <a href="/"><img src="/images/logo.svg" alt="Logo Mercadoliebre"></a>
         </div>
-        <div class="barra-busqueda">
-            <input type="search" class="busqueda"><i class="fa-solid fa-magnifying-glass lupa"></i>
-        </div>
-        <h3 class="compras"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h3>
+        <form action="/ ">
+            <div class="barra-busqueda">
+                <input type="text" name="search" placeholder="Buscá productos por nombre, marcas o palabras clave" class="busqueda">
+                <button type="submit"> <i class="fa-solid fa-magnifying-glass lupa"></i></button>
+            </div>
+        </form>
+        
+        <h5 class="compras"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</h5>
         </div>
         <nav class="navegacion-completo">
             <ul class="texto-normal navegacion">
@@ -34,23 +38,21 @@
                 <li><a href="#" class="texto-normal">Ayuda</a></li>
             </ul>
             <ul class="texto-normal navegacion-2">
-                <li class="texto-normal"><a href="#" class="texto-normal"><i class="fa-regular fa-id-card"></i>Crea tu
+                <li class="texto-normal"><a href="/register" class="texto-normal"><i class="fa-regular fa-id-card"></i>Crea tu
                         cuenta</a></li>
-                <li><a href="#" class="texto-normal"><i class="fa-solid fa-right-to-bracket"></i>Ingresa</a></li>
+                <li><a href="/login" class="texto-normal"><i class="fa-solid fa-right-to-bracket"></i>Ingresa</a></li>
                 <li><a href="#" class="texto-normal"><i class="fa-solid fa-bag-shopping"></i>Mis compras</a></li>
             </ul>
         </nav>
         <div class="burguer-menu menu">
             <i class="fa-solid fa-bars burguer-menu-2"></i>
-        </div></header>
+        </div>
+    </header>
         <main class="flex vw-90 m-0">
             <form action="" class="flex flex-direction align-center mt-10 vw-90 m-0">
-            
-                <input class="w-100 br mt-15 pd w-lg" type="email" name="email" id="email" placeholder="Nombre de usuari@">
-
-                <input class="w-100 br mt-15 pd w-lg" type="password" placeholder="Contraseña">
-                
-                <input class="btn" type="button" value="Enviar">
+                <input class="w-100 br mt-15 pd w-lg" type="email" id="email" name="email" placeholder="Nombre de usuari@" required>
+                <input class="w-100 br mt-15 pd w-lg" type="password" placeholder="Contraseña" required>
+                <button class="btn">Enviar</button>
                 </form>
         </main>
         <footer class="bg-color">
@@ -64,7 +66,7 @@
                 <li><i class="fa-solid fa-user-shield icon"></i><h3>Seguridad, de principio a fin</h3>
                     <p class="ft-p">¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
                         porque estás siempre protegid@.</p></li>
-                <li><h3>Copyright © 1999-2020 MercadoLiebre S.R.L.</h3></li>
             </ul>
-        </footer>    
+              <h3 class="copi">Copyright © 1999-2020 MercadoLiebre S.R.L.</h3>
+        </footer>   
     </body>

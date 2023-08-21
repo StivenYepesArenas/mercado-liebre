@@ -59,6 +59,7 @@ body{
 .descripcion-descuento{
     font-size: 16px;
 }
+
 .precios{
     font-size: 18px;
 }
@@ -193,6 +194,14 @@ top: -15px;
 }
 
 /*ESTILOS LOGIN*/
+input:invalid {
+    background-color: #ffdddd;
+  }
+  input:required + label::after {
+    content: "Este campo es obligatorio";
+    color: red;
+    margin-left: 5px;
+  }
 .mt-15{
     margin-bottom: 15px;
 }
@@ -239,6 +248,10 @@ top: -15px;
     width: 200px;
     margin-bottom: 25px;
 }
+.copi{
+    margin:10px;
+    text-align: center;
+}
 /* tablet */
 @media(min-width: 481px) {
     .nav-hedaer{
@@ -249,7 +262,9 @@ top: -15px;
      .nav-hedaer .barra-busqueda{
         position: relative;
         bottom: 10px;
-       
+    }
+    article{
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
     }
    
     .oferta{
@@ -283,21 +298,50 @@ top: -15px;
     .navegacion-completo li{
         margin: 0 5px;
     }
-    article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }}
+    
 
     /* laptop */
     @media (min-width: 769px) {
-  
-  .lg-w-25 {
+    .lg-w-25 {
     width: 23%;
-  }
+    }
+    .nav-hedaer, .navegacion-completo{
+        max-width: 1200px;
+        margin: auto;
+    }
+   .description{
+    display: none;
+   }
+   article:hover .description{
+    display: block;
+   }
+   
   .oferta{
     height: 150px;
     width: 100vw;
-}
-}
+ }
+ article{
+    box-shadow: none;
+ }
+ article :hover.fa-truck{
+    transition: 1s;
+    transform: rotatez(270deg);
+ }
+    article :hover {
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
+    }
+    footer ul{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .copi{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .fa-solid:hover{
+       color:  #39b54a;
+    }
+} 
 /* desktop */
 @media (min-width: 1220px) { 
     .logo{
@@ -325,5 +369,7 @@ top: -15px;
     .navegacion-completo a{
         font-size: 19px;
     }
-}
-
+    .descripcion{
+        display: none;
+    }
+}}
